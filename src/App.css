@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.title{
+    font-size: 5em;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.createBtn{
+    width: 75px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.todos{
+    color: white;
+    font-size: 2.5em;
+}
+
+.todoText{
+    cursor: pointer;
+}
+
+.strike{
+    text-decoration: line-through red;
+}
+
+.delete{
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    color: red;
+}
