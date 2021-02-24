@@ -99,17 +99,23 @@ function App() {
 
     return(
       <div className="container">
-        <h1 className="title">Things To Do</h1>
-        <form onSubmit={handleAddTodo}>
-          <input 
-            type="text" 
-            placeholder="Add a goal for today" 
-            onChange={event => setTodoText(event.target.value)}
-            value={todoText}
-            />
-          <button className="createBtn" type="submit">Create</button>
-          
-        </form>
+        <div className="topSection">
+          <h1 className="title">Things To Do</h1>
+        </div>
+        <div className="formSection">
+          <form onSubmit={handleAddTodo}>
+            <input 
+              type="text" 
+              placeholder="Add a goal for today" 
+              onChange={event => setTodoText(event.target.value)}
+              value={todoText}
+              />
+            <button className="createBtn" type="submit">Create</button>
+          </form>
+          <div className="intro">
+            <p>Double click a goal to mark it done.<br></br> Select the 'X' to remove the goal altogether.</p>
+          </div>
+        </div>
         <div className="todos">
           {data.todos.map(todo => (
             <p onDoubleClick={() => handleToggleTodo(todo)} key={todo.id}>
