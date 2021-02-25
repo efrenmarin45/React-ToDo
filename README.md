@@ -6,7 +6,7 @@ Built using React, Apollo, GraphQL and Hasura this To Do application was built t
 
 Give it a try! 
 
-[Live Demo](https://efrenmarin45.github.io/react-todo/)
+[Live Demo](https://efrenmarin45.github.io/React-ToDo/)
 
 
 
