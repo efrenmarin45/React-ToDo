@@ -1,5 +1,5 @@
 {
-    "name":"ToDo App",
+    "name":"React-ToDo",
     "short_name":"A simple ToDo App",
     "icons":[
         {
@@ -12,6 +12,7 @@
         }
     ],
     
+    "start_url": ".",
     "theme_color":"#ffffff",
     "background_color":"#ffffff",
     "display":"standalone"
