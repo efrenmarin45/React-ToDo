@@ -89,7 +89,7 @@ function App() {
 
   if (loading)
     return(
-      <div>Loading...</div>
+      <div className="loading">Loading...</div>
     )
 
   if (error)
